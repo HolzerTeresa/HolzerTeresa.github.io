@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav>
-      <img src="images/money-bag.png" alt="My Logo" />
+      <img src="images/gold-dollar.png" alt="My Logo" />
       <a href="#">Home</a>
       <a href="#">About Us</a>
       <a href="#">Contact</a>
@@ -18,19 +18,24 @@
 
     <div class="container">
       <h1>BETTING RATE CALCULATOR</h1>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Quote 1" />
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Quote 2" />
-
-      <label for="password">Password:</label>
+      <label for="firstQuote">Quote 1:</label>
       <input
-        type="password"
-        id="password"
-        name="password"
-        placeholder="Result"
+        type="number"
+        id="firstQuote"
+        name="firstQuote"
+        placeholder="Quote 1"
       />
+
+      <label for="secondQuote">Quote 2:</label>
+      <input
+        type="number"
+        id="secondQuote"
+        name="secondQuote"
+        placeholder="Quote 2"
+      />
+
+      <label for="result">Result:</label>
+      <input type="number" id="result" name="Result" placeholder="Result" />
 
       <input type="submit" value="Submit" />
     </div>

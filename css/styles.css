@@ -12,9 +12,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
+input[type="number"] {
     background-color: #1E1E1E;
     border: none;
     border-radius: 5px;
@@ -26,7 +24,8 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #fdd538;
+    color: #1E1E1E;;
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
@@ -36,7 +35,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #3E8E41;
+    background-color: #fdd538;
 }
 
 nav {
